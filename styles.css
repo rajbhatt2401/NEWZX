@@ -148,13 +148,14 @@ main {
     margin-block: 12px;
 }  */
 
+
 /* Global Resets */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     transition: all 0.3s ease; /* Smooth transition globally */
-}
+   }
 
 :root {
     --primary-text-color: #3b6978; /* Deep blue-teal */
@@ -300,24 +301,7 @@ nav {
     background-color: var(--accent-color-dark);
     transform: scale(1.05);
 }
-/* style.css */
-body {
-    background-color: white;
-    color: black;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  body.dark-mode {
-    background-color: #121212;
-    color: white;
-  }
-  
-  button {
-    margin: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
+
 /* Categories Styling */
 .categories {
     margin-top: 40px;
@@ -433,4 +417,4 @@ main {
     .card-header img {
         height: 160px;
     }
-}
+} 
