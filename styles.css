@@ -300,7 +300,24 @@ nav {
     background-color: var(--accent-color-dark);
     transform: scale(1.05);
 }
-
+/* style.css */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  button {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
 /* Categories Styling */
 .categories {
     margin-top: 40px;
